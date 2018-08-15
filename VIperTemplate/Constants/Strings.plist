@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LOREM</key>
+	<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis enim ac ligula pellentesque volutpat. Fusce vel vestibulum ipsum. Nulla felis nisl, egestas eu semper a, laoreet eget tortor. Curabitur efficitur ut tellus non commodo. Aenean ullamcorper pulvinar odio, ac vestibulum nisl consequat a. Fusce volutpat elit vel pharetra vehicula. Cras tempor sem odio. Aenean porttitor tempus turpis sit amet tincidunt. Cras faucibus lobortis lacus.
+        
+        Donec varius nunc ante, quis fringilla purus lacinia non. Aliquam mattis leo ac nisi consequat aliquet. Nam quis turpis fermentum,
+        aliquam elit eget, semper purus. Donec pellentesque, elit sed suscipit laoreet, sem est consectetur lacus, ac tristique mauris diam
+        sed orci. Fusce mattis libero neque, ac auctor lorem dictum ac. Suspendisse eget orci ut massa porttitor pretium vitae quis nisi.
+        Fusce in odio facilisis massa euismod pulvinar nec eget ipsum. Nullam quis fermentum dui. Pellentesque congue suscipit nulla nec
+        commodo. Morbi eu tellus id lectus molestie tempus.</string>
+	<key>ALERTA</key>
+	<string>Alerta</string>
+	<key>ACEPTAR</key>
+	<string>Aceptar</string>
+	<key>CANCELAR</key>
+	<string>Cancelar</string>
+	<key>ERROR</key>
+	<string>Error</string>
+	<key>OK</key>
+	<string>OK</string>
+</dict>
+</plist>

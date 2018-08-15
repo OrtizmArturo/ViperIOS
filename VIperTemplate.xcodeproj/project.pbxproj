@@ -1,0 +1,1257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484F1CC1781CFF46CFBF1319 /* Pods_VIperTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D50C92F15AE7446E0F2144 /* Pods_VIperTemplateUITests.framework */; };
+		7FFBFA244819B594C202780D /* Pods_VIperTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C83F1606B9580DDCBDC96C6 /* Pods_VIperTemplateTests.framework */; };
+		9AD742F3ABACEABA95211902 /* Pods_VIperTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0921F064B3AE7C4A19AACB /* Pods_VIperTemplate.framework */; };
+		BE2C1D862124972E00E58DB0 /* DelegatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C1D822124972C00E58DB0 /* DelegatePresenter.swift */; };
+		BE2C1D872124972E00E58DB0 /* DelegateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C1D832124972C00E58DB0 /* DelegateRouter.swift */; };
+		BE2C1D882124972E00E58DB0 /* DelegateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C1D842124972D00E58DB0 /* DelegateInteractor.swift */; };
+		BE2C1D892124972E00E58DB0 /* DelegateContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C1D852124972D00E58DB0 /* DelegateContract.swift */; };
+		BE60493720F7FB1A0076A7AE /* CameraModuleBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60493120F7FB1A0076A7AE /* CameraModuleBox.swift */; };
+		BE60493820F7FB1A0076A7AE /* CameraModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60493220F7FB1A0076A7AE /* CameraModuleContract.swift */; };
+		BE60493920F7FB1A0076A7AE /* CameraModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60493320F7FB1A0076A7AE /* CameraModuleInteractor.swift */; };
+		BE60493A20F7FB1A0076A7AE /* CameraModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60493420F7FB1A0076A7AE /* CameraModulePresenter.swift */; };
+		BE60493B20F7FB1A0076A7AE /* CameraModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60493520F7FB1A0076A7AE /* CameraModuleRouter.swift */; };
+		BE60493C20F7FB1A0076A7AE /* CameraModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60493620F7FB1A0076A7AE /* CameraModuleViewController.swift */; };
+		BE60493E20F80D8A0076A7AE /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = BE60493D20F80D890076A7AE /* square.png */; };
+		BE60494020F813E50076A7AE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = BE60493F20F813E50076A7AE /* tessdata */; };
+		BE60494220F8E3F00076A7AE /* image_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE60494120F8E3EF0076A7AE /* image_sample.jpg */; };
+		BEE80B4020EFD17A00BFA439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B3F20EFD17A00BFA439 /* AppDelegate.swift */; };
+		BEE80B4220EFD17A00BFA439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B4120EFD17A00BFA439 /* ViewController.swift */; };
+		BEE80B4520EFD17A00BFA439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE80B4320EFD17A00BFA439 /* Main.storyboard */; };
+		BEE80B4720EFD18300BFA439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE80B4620EFD18300BFA439 /* Assets.xcassets */; };
+		BEE80B4A20EFD18300BFA439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE80B4820EFD18300BFA439 /* LaunchScreen.storyboard */; };
+		BEE80B5520EFD18300BFA439 /* VIperTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B5420EFD18300BFA439 /* VIperTemplateTests.swift */; };
+		BEE80B6020EFD18300BFA439 /* VIperTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B5F20EFD18300BFA439 /* VIperTemplateUITests.swift */; };
+		BEE80B6E20EFD23800BFA439 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B6D20EFD23800BFA439 /* TabController.swift */; };
+		BEE80B7220EFD29C00BFA439 /* snake.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE80B6F20EFD29B00BFA439 /* snake.png */; };
+		BEE80B7320EFD29C00BFA439 /* sIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE80B7020EFD29B00BFA439 /* sIcon.png */; };
+		BEE80B7420EFD29C00BFA439 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE80B7120EFD29C00BFA439 /* back.png */; };
+		BEE80B8B20EFD3EF00BFA439 /* MyApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B7C20EFD3EE00BFA439 /* MyApiRequest.swift */; };
+		BEE80B8C20EFD3EF00BFA439 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B7E20EFD3EE00BFA439 /* Request.swift */; };
+		BEE80B8D20EFD3EF00BFA439 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B7F20EFD3EE00BFA439 /* RequestBuilder.swift */; };
+		BEE80B8E20EFD3EF00BFA439 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B8020EFD3EE00BFA439 /* RequestProtocol.swift */; };
+		BEE80B8F20EFD3EF00BFA439 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B8220EFD3EE00BFA439 /* ColorConstants.swift */; };
+		BEE80B9020EFD3EF00BFA439 /* FontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B8320EFD3EE00BFA439 /* FontConstants.swift */; };
+		BEE80B9120EFD3EF00BFA439 /* ConstantsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B8520EFD3EE00BFA439 /* ConstantsProtocol.swift */; };
+		BEE80B9220EFD3EF00BFA439 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B8620EFD3EE00BFA439 /* StringConstants.swift */; };
+		BEE80B9320EFD3EF00BFA439 /* Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE80B8720EFD3EE00BFA439 /* Strings.plist */; };
+		BEE80B9420EFD3EF00BFA439 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B8820EFD3EE00BFA439 /* URLConstants.swift */; };
+		BEE80B9520EFD3EF00BFA439 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B8A20EFD3EE00BFA439 /* Extensions.swift */; };
+		BEE80BD320EFD43D00BFA439 /* RegistroModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B9820EFD43A00BFA439 /* RegistroModuleContract.swift */; };
+		BEE80BD420EFD43D00BFA439 /* RegistroModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B9920EFD43A00BFA439 /* RegistroModuleInteractor.swift */; };
+		BEE80BD520EFD43D00BFA439 /* RegistroModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B9A20EFD43A00BFA439 /* RegistroModulePresenter.swift */; };
+		BEE80BD620EFD43D00BFA439 /* RegistroModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B9B20EFD43A00BFA439 /* RegistroModuleRouter.swift */; };
+		BEE80BD720EFD43D00BFA439 /* RegistroModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B9C20EFD43A00BFA439 /* RegistroModuleViewController.swift */; };
+		BEE80BD820EFD43D00BFA439 /* OutDetailModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B9E20EFD43A00BFA439 /* OutDetailModuleContract.swift */; };
+		BEE80BD920EFD43D00BFA439 /* OutDetailModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80B9F20EFD43A00BFA439 /* OutDetailModuleInteractor.swift */; };
+		BEE80BDA20EFD43D00BFA439 /* OutDetailModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA020EFD43A00BFA439 /* OutDetailModulePresenter.swift */; };
+		BEE80BDB20EFD43D00BFA439 /* OutDetailModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA120EFD43A00BFA439 /* OutDetailModuleRouter.swift */; };
+		BEE80BDC20EFD43D00BFA439 /* OutDetailModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA220EFD43A00BFA439 /* OutDetailModuleViewController.swift */; };
+		BEE80BDD20EFD43D00BFA439 /* OutHomeModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA420EFD43A00BFA439 /* OutHomeModuleContract.swift */; };
+		BEE80BDE20EFD43D00BFA439 /* OutHomeModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA520EFD43A00BFA439 /* OutHomeModuleInteractor.swift */; };
+		BEE80BDF20EFD43D00BFA439 /* OutHomeModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA620EFD43A00BFA439 /* OutHomeModulePresenter.swift */; };
+		BEE80BE020EFD43D00BFA439 /* OutHomeModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA720EFD43A00BFA439 /* OutHomeModuleRouter.swift */; };
+		BEE80BE120EFD43D00BFA439 /* OutHomeModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BA820EFD43A00BFA439 /* OutHomeModuleViewController.swift */; };
+		BEE80BE220EFD43D00BFA439 /* OlvideModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BAA20EFD43B00BFA439 /* OlvideModuleContract.swift */; };
+		BEE80BE320EFD43D00BFA439 /* OlvideModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BAB20EFD43B00BFA439 /* OlvideModuleInteractor.swift */; };
+		BEE80BE420EFD43D00BFA439 /* OlvideModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BAC20EFD43B00BFA439 /* OlvideModulePresenter.swift */; };
+		BEE80BE520EFD43D00BFA439 /* OlvideModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BAD20EFD43B00BFA439 /* OlvideModuleRouter.swift */; };
+		BEE80BE620EFD43D00BFA439 /* OlvideModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BAE20EFD43B00BFA439 /* OlvideModuleViewController.swift */; };
+		BEE80BE720EFD43D00BFA439 /* Tab2ModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB020EFD43B00BFA439 /* Tab2ModuleContract.swift */; };
+		BEE80BE820EFD43D00BFA439 /* Tab2ModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB120EFD43B00BFA439 /* Tab2ModuleInteractor.swift */; };
+		BEE80BE920EFD43D00BFA439 /* Tab2ModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB220EFD43B00BFA439 /* Tab2ModulePresenter.swift */; };
+		BEE80BEA20EFD43D00BFA439 /* Tab2ModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB320EFD43B00BFA439 /* Tab2ModuleRouter.swift */; };
+		BEE80BEB20EFD43D00BFA439 /* Tab2ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB420EFD43B00BFA439 /* Tab2ModuleViewController.swift */; };
+		BEE80BEC20EFD43D00BFA439 /* Tab3ModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB620EFD43B00BFA439 /* Tab3ModuleContract.swift */; };
+		BEE80BED20EFD43D00BFA439 /* Tab3ModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB720EFD43B00BFA439 /* Tab3ModuleInteractor.swift */; };
+		BEE80BEE20EFD43D00BFA439 /* Tab3ModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB820EFD43B00BFA439 /* Tab3ModulePresenter.swift */; };
+		BEE80BEF20EFD43D00BFA439 /* Tab3ModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BB920EFD43B00BFA439 /* Tab3ModuleRouter.swift */; };
+		BEE80BF020EFD43D00BFA439 /* Tab3ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BBA20EFD43B00BFA439 /* Tab3ModuleViewController.swift */; };
+		BEE80BF120EFD43D00BFA439 /* HomeModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BBC20EFD43B00BFA439 /* HomeModuleContract.swift */; };
+		BEE80BF220EFD43D00BFA439 /* HomeModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BBD20EFD43B00BFA439 /* HomeModuleInteractor.swift */; };
+		BEE80BF320EFD43D00BFA439 /* HomeModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BBE20EFD43B00BFA439 /* HomeModulePresenter.swift */; };
+		BEE80BF420EFD43D00BFA439 /* HomeModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BBF20EFD43B00BFA439 /* HomeModuleRouter.swift */; };
+		BEE80BF520EFD43D00BFA439 /* HomeModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC020EFD43B00BFA439 /* HomeModuleViewController.swift */; };
+		BEE80BF620EFD43D00BFA439 /* LoginModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC220EFD43C00BFA439 /* LoginModuleContract.swift */; };
+		BEE80BF720EFD43D00BFA439 /* LoginModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC320EFD43C00BFA439 /* LoginModuleInteractor.swift */; };
+		BEE80BF820EFD43D00BFA439 /* LoginModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC420EFD43C00BFA439 /* LoginModulePresenter.swift */; };
+		BEE80BF920EFD43D00BFA439 /* LoginModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC520EFD43C00BFA439 /* LoginModuleRouter.swift */; };
+		BEE80BFA20EFD43D00BFA439 /* LoginModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC620EFD43C00BFA439 /* LoginModuleViewController.swift */; };
+		BEE80BFB20EFD43D00BFA439 /* DetailModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC820EFD43C00BFA439 /* DetailModuleContract.swift */; };
+		BEE80BFC20EFD43D00BFA439 /* DetailModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BC920EFD43C00BFA439 /* DetailModuleInteractor.swift */; };
+		BEE80BFD20EFD43D00BFA439 /* DetailModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BCA20EFD43C00BFA439 /* DetailModulePresenter.swift */; };
+		BEE80BFE20EFD43D00BFA439 /* DetailModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BCB20EFD43C00BFA439 /* DetailModuleRouter.swift */; };
+		BEE80BFF20EFD43D00BFA439 /* DetailModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BCC20EFD43C00BFA439 /* DetailModuleViewController.swift */; };
+		BEE80C0020EFD43D00BFA439 /* Tab1ModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BCE20EFD43D00BFA439 /* Tab1ModuleContract.swift */; };
+		BEE80C0120EFD43D00BFA439 /* Tab1ModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BCF20EFD43D00BFA439 /* Tab1ModuleInteractor.swift */; };
+		BEE80C0220EFD43D00BFA439 /* Tab1ModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BD020EFD43D00BFA439 /* Tab1ModulePresenter.swift */; };
+		BEE80C0320EFD43D00BFA439 /* Tab1ModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BD120EFD43D00BFA439 /* Tab1ModuleRouter.swift */; };
+		BEE80C0420EFD43D00BFA439 /* Tab1ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80BD220EFD43D00BFA439 /* Tab1ModuleViewController.swift */; };
+		BEE80C0C20F3CE8500BFA439 /* LoginModuleBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80C0B20F3CE8500BFA439 /* LoginModuleBox.swift */; };
+		BEE80C4920F654D700BFA439 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80C4820F654D700BFA439 /* UserDefaults.swift */; };
+		BEE80C5820F6B05500BFA439 /* AlternateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80C5720F6B05500BFA439 /* AlternateBox.swift */; };
+		BEE80C5A20F6BA8500BFA439 /* CoolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80C5920F6BA8500BFA439 /* CoolBox.swift */; };
+		BEE80C5C20F7950900BFA439 /* DifferentBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80C5B20F7950900BFA439 /* DifferentBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEE80B5120EFD18300BFA439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE80B3420EFD17A00BFA439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE80B3B20EFD17A00BFA439;
+			remoteInfo = VIperTemplate;
+		};
+		BEE80B5C20EFD18300BFA439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE80B3420EFD17A00BFA439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE80B3B20EFD17A00BFA439;
+			remoteInfo = VIperTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D50C92F15AE7446E0F2144 /* Pods_VIperTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIperTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		132B5E61A8AC81B1D03D047E /* Pods-VIperTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIperTemplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIperTemplateUITests/Pods-VIperTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		297D6F9F3A8CD06920EF254E /* Pods-VIperTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIperTemplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIperTemplateTests/Pods-VIperTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C83F1606B9580DDCBDC96C6 /* Pods_VIperTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIperTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582D913700E707EDAA5F5599 /* Pods-VIperTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIperTemplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIperTemplateTests/Pods-VIperTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0921F064B3AE7C4A19AACB /* Pods_VIperTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIperTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C1D822124972C00E58DB0 /* DelegatePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegatePresenter.swift; sourceTree = "<group>"; };
+		BE2C1D832124972C00E58DB0 /* DelegateRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateRouter.swift; sourceTree = "<group>"; };
+		BE2C1D842124972D00E58DB0 /* DelegateInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateInteractor.swift; sourceTree = "<group>"; };
+		BE2C1D852124972D00E58DB0 /* DelegateContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateContract.swift; sourceTree = "<group>"; };
+		BE60493120F7FB1A0076A7AE /* CameraModuleBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModuleBox.swift; sourceTree = "<group>"; };
+		BE60493220F7FB1A0076A7AE /* CameraModuleContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModuleContract.swift; sourceTree = "<group>"; };
+		BE60493320F7FB1A0076A7AE /* CameraModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModuleInteractor.swift; sourceTree = "<group>"; };
+		BE60493420F7FB1A0076A7AE /* CameraModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModulePresenter.swift; sourceTree = "<group>"; };
+		BE60493520F7FB1A0076A7AE /* CameraModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModuleRouter.swift; sourceTree = "<group>"; };
+		BE60493620F7FB1A0076A7AE /* CameraModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModuleViewController.swift; sourceTree = "<group>"; };
+		BE60493D20F80D890076A7AE /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		BE60493F20F813E50076A7AE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		BE60494120F8E3EF0076A7AE /* image_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_sample.jpg; sourceTree = "<group>"; };
+		BEE80B3C20EFD17A00BFA439 /* VIperTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIperTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE80B3F20EFD17A00BFA439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEE80B4120EFD17A00BFA439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEE80B4420EFD17A00BFA439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEE80B4620EFD18300BFA439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE80B4920EFD18300BFA439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEE80B4B20EFD18300BFA439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE80B5020EFD18300BFA439 /* VIperTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIperTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE80B5420EFD18300BFA439 /* VIperTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIperTemplateTests.swift; sourceTree = "<group>"; };
+		BEE80B5620EFD18300BFA439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE80B5B20EFD18300BFA439 /* VIperTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIperTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE80B5F20EFD18300BFA439 /* VIperTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIperTemplateUITests.swift; sourceTree = "<group>"; };
+		BEE80B6120EFD18300BFA439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE80B6D20EFD23800BFA439 /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		BEE80B6F20EFD29B00BFA439 /* snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snake.png; sourceTree = "<group>"; };
+		BEE80B7020EFD29B00BFA439 /* sIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sIcon.png; sourceTree = "<group>"; };
+		BEE80B7120EFD29C00BFA439 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		BEE80B7C20EFD3EE00BFA439 /* MyApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApiRequest.swift; sourceTree = "<group>"; };
+		BEE80B7E20EFD3EE00BFA439 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BEE80B7F20EFD3EE00BFA439 /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		BEE80B8020EFD3EE00BFA439 /* RequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		BEE80B8220EFD3EE00BFA439 /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		BEE80B8320EFD3EE00BFA439 /* FontConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstants.swift; sourceTree = "<group>"; };
+		BEE80B8520EFD3EE00BFA439 /* ConstantsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsProtocol.swift; sourceTree = "<group>"; };
+		BEE80B8620EFD3EE00BFA439 /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		BEE80B8720EFD3EE00BFA439 /* Strings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Strings.plist; sourceTree = "<group>"; };
+		BEE80B8820EFD3EE00BFA439 /* URLConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		BEE80B8A20EFD3EE00BFA439 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BEE80B9820EFD43A00BFA439 /* RegistroModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroModuleContract.swift; sourceTree = "<group>"; };
+		BEE80B9920EFD43A00BFA439 /* RegistroModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80B9A20EFD43A00BFA439 /* RegistroModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80B9B20EFD43A00BFA439 /* RegistroModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80B9C20EFD43A00BFA439 /* RegistroModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80B9E20EFD43A00BFA439 /* OutDetailModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutDetailModuleContract.swift; sourceTree = "<group>"; };
+		BEE80B9F20EFD43A00BFA439 /* OutDetailModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutDetailModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BA020EFD43A00BFA439 /* OutDetailModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutDetailModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BA120EFD43A00BFA439 /* OutDetailModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutDetailModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BA220EFD43A00BFA439 /* OutDetailModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutDetailModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BA420EFD43A00BFA439 /* OutHomeModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutHomeModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BA520EFD43A00BFA439 /* OutHomeModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutHomeModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BA620EFD43A00BFA439 /* OutHomeModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutHomeModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BA720EFD43A00BFA439 /* OutHomeModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutHomeModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BA820EFD43A00BFA439 /* OutHomeModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutHomeModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BAA20EFD43B00BFA439 /* OlvideModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlvideModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BAB20EFD43B00BFA439 /* OlvideModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlvideModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BAC20EFD43B00BFA439 /* OlvideModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlvideModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BAD20EFD43B00BFA439 /* OlvideModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlvideModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BAE20EFD43B00BFA439 /* OlvideModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlvideModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BB020EFD43B00BFA439 /* Tab2ModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BB120EFD43B00BFA439 /* Tab2ModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BB220EFD43B00BFA439 /* Tab2ModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BB320EFD43B00BFA439 /* Tab2ModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BB420EFD43B00BFA439 /* Tab2ModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BB620EFD43B00BFA439 /* Tab3ModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3ModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BB720EFD43B00BFA439 /* Tab3ModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3ModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BB820EFD43B00BFA439 /* Tab3ModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3ModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BB920EFD43B00BFA439 /* Tab3ModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3ModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BBA20EFD43B00BFA439 /* Tab3ModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3ModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BBC20EFD43B00BFA439 /* HomeModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BBD20EFD43B00BFA439 /* HomeModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BBE20EFD43B00BFA439 /* HomeModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BBF20EFD43B00BFA439 /* HomeModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BC020EFD43B00BFA439 /* HomeModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BC220EFD43C00BFA439 /* LoginModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BC320EFD43C00BFA439 /* LoginModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BC420EFD43C00BFA439 /* LoginModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BC520EFD43C00BFA439 /* LoginModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BC620EFD43C00BFA439 /* LoginModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BC820EFD43C00BFA439 /* DetailModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BC920EFD43C00BFA439 /* DetailModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BCA20EFD43C00BFA439 /* DetailModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BCB20EFD43C00BFA439 /* DetailModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BCC20EFD43C00BFA439 /* DetailModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80BCE20EFD43D00BFA439 /* Tab1ModuleContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ModuleContract.swift; sourceTree = "<group>"; };
+		BEE80BCF20EFD43D00BFA439 /* Tab1ModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ModuleInteractor.swift; sourceTree = "<group>"; };
+		BEE80BD020EFD43D00BFA439 /* Tab1ModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ModulePresenter.swift; sourceTree = "<group>"; };
+		BEE80BD120EFD43D00BFA439 /* Tab1ModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ModuleRouter.swift; sourceTree = "<group>"; };
+		BEE80BD220EFD43D00BFA439 /* Tab1ModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ModuleViewController.swift; sourceTree = "<group>"; };
+		BEE80C0B20F3CE8500BFA439 /* LoginModuleBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleBox.swift; sourceTree = "<group>"; };
+		BEE80C4820F654D700BFA439 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		BEE80C5720F6B05500BFA439 /* AlternateBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateBox.swift; sourceTree = "<group>"; };
+		BEE80C5920F6BA8500BFA439 /* CoolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBox.swift; sourceTree = "<group>"; };
+		BEE80C5B20F7950900BFA439 /* DifferentBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentBox.swift; sourceTree = "<group>"; };
+		C9B4170928CEA1CA9B1C3301 /* Pods-VIperTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIperTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIperTemplate/Pods-VIperTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		D37EBF1EEAA61C3A54CF5F89 /* Pods-VIperTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIperTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIperTemplate/Pods-VIperTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		EB9D256B89138084F963992F /* Pods-VIperTemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIperTemplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIperTemplateUITests/Pods-VIperTemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE80B3920EFD17A00BFA439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD742F3ABACEABA95211902 /* Pods_VIperTemplate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE80B4D20EFD18300BFA439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFBFA244819B594C202780D /* Pods_VIperTemplateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE80B5820EFD18300BFA439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484F1CC1781CFF46CFBF1319 /* Pods_VIperTemplateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2C1D81212496E900E58DB0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C1D852124972D00E58DB0 /* DelegateContract.swift */,
+				BE2C1D842124972D00E58DB0 /* DelegateInteractor.swift */,
+				BE2C1D822124972C00E58DB0 /* DelegatePresenter.swift */,
+				BE2C1D832124972C00E58DB0 /* DelegateRouter.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		BE60493020F7F6030076A7AE /* CameraModule */ = {
+			isa = PBXGroup;
+			children = (
+				BE60493120F7FB1A0076A7AE /* CameraModuleBox.swift */,
+				BE60493220F7FB1A0076A7AE /* CameraModuleContract.swift */,
+				BE60493320F7FB1A0076A7AE /* CameraModuleInteractor.swift */,
+				BE60493420F7FB1A0076A7AE /* CameraModulePresenter.swift */,
+				BE60493520F7FB1A0076A7AE /* CameraModuleRouter.swift */,
+				BE60493620F7FB1A0076A7AE /* CameraModuleViewController.swift */,
+			);
+			path = CameraModule;
+			sourceTree = "<group>";
+		};
+		BEE80B3320EFD17A00BFA439 = {
+			isa = PBXGroup;
+			children = (
+				BEE80B3E20EFD17A00BFA439 /* VIperTemplate */,
+				BEE80B5320EFD18300BFA439 /* VIperTemplateTests */,
+				BEE80B5E20EFD18300BFA439 /* VIperTemplateUITests */,
+				BEE80B3D20EFD17A00BFA439 /* Products */,
+				F40F53567A17904CC335EE78 /* Pods */,
+				D135BFF420A6C84498B8B45A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE80B3D20EFD17A00BFA439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B3C20EFD17A00BFA439 /* VIperTemplate.app */,
+				BEE80B5020EFD18300BFA439 /* VIperTemplateTests.xctest */,
+				BEE80B5B20EFD18300BFA439 /* VIperTemplateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE80B3E20EFD17A00BFA439 /* VIperTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B8920EFD3EE00BFA439 /* Util */,
+				BEE80B8120EFD3EE00BFA439 /* Constants */,
+				BEE80B7B20EFD3EE00BFA439 /* Network */,
+				BEE80B9620EFD41D00BFA439 /* MODULES */,
+				BEE80B3F20EFD17A00BFA439 /* AppDelegate.swift */,
+				BE2C1D81212496E900E58DB0 /* Delegate */,
+				BE60493F20F813E50076A7AE /* tessdata */,
+				BEE80B6D20EFD23800BFA439 /* TabController.swift */,
+				BEE80B4120EFD17A00BFA439 /* ViewController.swift */,
+				BEE80B4320EFD17A00BFA439 /* Main.storyboard */,
+				BE60494120F8E3EF0076A7AE /* image_sample.jpg */,
+				BEE80B7120EFD29C00BFA439 /* back.png */,
+				BEE80B7020EFD29B00BFA439 /* sIcon.png */,
+				BEE80B6F20EFD29B00BFA439 /* snake.png */,
+				BE60493D20F80D890076A7AE /* square.png */,
+				BEE80B4620EFD18300BFA439 /* Assets.xcassets */,
+				BEE80B4820EFD18300BFA439 /* LaunchScreen.storyboard */,
+				BEE80B4B20EFD18300BFA439 /* Info.plist */,
+			);
+			path = VIperTemplate;
+			sourceTree = "<group>";
+		};
+		BEE80B5320EFD18300BFA439 /* VIperTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B5420EFD18300BFA439 /* VIperTemplateTests.swift */,
+				BEE80B5620EFD18300BFA439 /* Info.plist */,
+			);
+			path = VIperTemplateTests;
+			sourceTree = "<group>";
+		};
+		BEE80B5E20EFD18300BFA439 /* VIperTemplateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B5F20EFD18300BFA439 /* VIperTemplateUITests.swift */,
+				BEE80B6120EFD18300BFA439 /* Info.plist */,
+			);
+			path = VIperTemplateUITests;
+			sourceTree = "<group>";
+		};
+		BEE80B7B20EFD3EE00BFA439 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B7D20EFD3EE00BFA439 /* Protocols */,
+				BEE80B7C20EFD3EE00BFA439 /* MyApiRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BEE80B7D20EFD3EE00BFA439 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B7E20EFD3EE00BFA439 /* Request.swift */,
+				BEE80B7F20EFD3EE00BFA439 /* RequestBuilder.swift */,
+				BEE80B8020EFD3EE00BFA439 /* RequestProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BEE80B8120EFD3EE00BFA439 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B8420EFD3EE00BFA439 /* Protocols */,
+				BEE80C4820F654D700BFA439 /* UserDefaults.swift */,
+				BEE80B8220EFD3EE00BFA439 /* ColorConstants.swift */,
+				BEE80B8320EFD3EE00BFA439 /* FontConstants.swift */,
+				BEE80B8620EFD3EE00BFA439 /* StringConstants.swift */,
+				BEE80B8820EFD3EE00BFA439 /* URLConstants.swift */,
+				BEE80B8720EFD3EE00BFA439 /* Strings.plist */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BEE80B8420EFD3EE00BFA439 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B8520EFD3EE00BFA439 /* ConstantsProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BEE80B8920EFD3EE00BFA439 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B8A20EFD3EE00BFA439 /* Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BEE80B9620EFD41D00BFA439 /* MODULES */ = {
+			isa = PBXGroup;
+			children = (
+				BE60493020F7F6030076A7AE /* CameraModule */,
+				BEE80C0820EFD46B00BFA439 /* LOGIN */,
+				BEE80C0720EFD46100BFA439 /* OUTSIDE */,
+				BEE80C0620EFD45900BFA439 /* INSIDE */,
+				BEE80C0520EFD44D00BFA439 /* TABS */,
+			);
+			path = MODULES;
+			sourceTree = "<group>";
+		};
+		BEE80B9720EFD43A00BFA439 /* RegistroModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B9820EFD43A00BFA439 /* RegistroModuleContract.swift */,
+				BEE80B9920EFD43A00BFA439 /* RegistroModuleInteractor.swift */,
+				BEE80B9A20EFD43A00BFA439 /* RegistroModulePresenter.swift */,
+				BEE80B9B20EFD43A00BFA439 /* RegistroModuleRouter.swift */,
+				BEE80B9C20EFD43A00BFA439 /* RegistroModuleViewController.swift */,
+			);
+			path = RegistroModule;
+			sourceTree = "<group>";
+		};
+		BEE80B9D20EFD43A00BFA439 /* OutDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B9E20EFD43A00BFA439 /* OutDetailModuleContract.swift */,
+				BEE80B9F20EFD43A00BFA439 /* OutDetailModuleInteractor.swift */,
+				BEE80BA020EFD43A00BFA439 /* OutDetailModulePresenter.swift */,
+				BEE80BA120EFD43A00BFA439 /* OutDetailModuleRouter.swift */,
+				BEE80BA220EFD43A00BFA439 /* OutDetailModuleViewController.swift */,
+			);
+			path = OutDetailModule;
+			sourceTree = "<group>";
+		};
+		BEE80BA320EFD43A00BFA439 /* OutHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BA420EFD43A00BFA439 /* OutHomeModuleContract.swift */,
+				BEE80BA520EFD43A00BFA439 /* OutHomeModuleInteractor.swift */,
+				BEE80BA620EFD43A00BFA439 /* OutHomeModulePresenter.swift */,
+				BEE80BA720EFD43A00BFA439 /* OutHomeModuleRouter.swift */,
+				BEE80BA820EFD43A00BFA439 /* OutHomeModuleViewController.swift */,
+			);
+			path = OutHomeModule;
+			sourceTree = "<group>";
+		};
+		BEE80BA920EFD43B00BFA439 /* OlvideModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BAA20EFD43B00BFA439 /* OlvideModuleContract.swift */,
+				BEE80BAB20EFD43B00BFA439 /* OlvideModuleInteractor.swift */,
+				BEE80BAC20EFD43B00BFA439 /* OlvideModulePresenter.swift */,
+				BEE80BAD20EFD43B00BFA439 /* OlvideModuleRouter.swift */,
+				BEE80BAE20EFD43B00BFA439 /* OlvideModuleViewController.swift */,
+			);
+			path = OlvideModule;
+			sourceTree = "<group>";
+		};
+		BEE80BAF20EFD43B00BFA439 /* Tab2Module */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BB020EFD43B00BFA439 /* Tab2ModuleContract.swift */,
+				BEE80BB120EFD43B00BFA439 /* Tab2ModuleInteractor.swift */,
+				BEE80BB220EFD43B00BFA439 /* Tab2ModulePresenter.swift */,
+				BEE80BB320EFD43B00BFA439 /* Tab2ModuleRouter.swift */,
+				BEE80BB420EFD43B00BFA439 /* Tab2ModuleViewController.swift */,
+			);
+			path = Tab2Module;
+			sourceTree = "<group>";
+		};
+		BEE80BB520EFD43B00BFA439 /* Tab3Module */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BB620EFD43B00BFA439 /* Tab3ModuleContract.swift */,
+				BEE80BB720EFD43B00BFA439 /* Tab3ModuleInteractor.swift */,
+				BEE80BB820EFD43B00BFA439 /* Tab3ModulePresenter.swift */,
+				BEE80BB920EFD43B00BFA439 /* Tab3ModuleRouter.swift */,
+				BEE80BBA20EFD43B00BFA439 /* Tab3ModuleViewController.swift */,
+			);
+			path = Tab3Module;
+			sourceTree = "<group>";
+		};
+		BEE80BBB20EFD43B00BFA439 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BBC20EFD43B00BFA439 /* HomeModuleContract.swift */,
+				BEE80BBD20EFD43B00BFA439 /* HomeModuleInteractor.swift */,
+				BEE80BBE20EFD43B00BFA439 /* HomeModulePresenter.swift */,
+				BEE80BBF20EFD43B00BFA439 /* HomeModuleRouter.swift */,
+				BEE80BC020EFD43B00BFA439 /* HomeModuleViewController.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		BEE80BC120EFD43C00BFA439 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BC220EFD43C00BFA439 /* LoginModuleContract.swift */,
+				BEE80BC320EFD43C00BFA439 /* LoginModuleInteractor.swift */,
+				BEE80BC420EFD43C00BFA439 /* LoginModulePresenter.swift */,
+				BEE80BC520EFD43C00BFA439 /* LoginModuleRouter.swift */,
+				BEE80BC620EFD43C00BFA439 /* LoginModuleViewController.swift */,
+				BEE80C5B20F7950900BFA439 /* DifferentBox.swift */,
+				BEE80C5920F6BA8500BFA439 /* CoolBox.swift */,
+				BEE80C0B20F3CE8500BFA439 /* LoginModuleBox.swift */,
+				BEE80C5720F6B05500BFA439 /* AlternateBox.swift */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		BEE80BC720EFD43C00BFA439 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BC820EFD43C00BFA439 /* DetailModuleContract.swift */,
+				BEE80BC920EFD43C00BFA439 /* DetailModuleInteractor.swift */,
+				BEE80BCA20EFD43C00BFA439 /* DetailModulePresenter.swift */,
+				BEE80BCB20EFD43C00BFA439 /* DetailModuleRouter.swift */,
+				BEE80BCC20EFD43C00BFA439 /* DetailModuleViewController.swift */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		BEE80BCD20EFD43D00BFA439 /* Tab1Module */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BCE20EFD43D00BFA439 /* Tab1ModuleContract.swift */,
+				BEE80BCF20EFD43D00BFA439 /* Tab1ModuleInteractor.swift */,
+				BEE80BD020EFD43D00BFA439 /* Tab1ModulePresenter.swift */,
+				BEE80BD120EFD43D00BFA439 /* Tab1ModuleRouter.swift */,
+				BEE80BD220EFD43D00BFA439 /* Tab1ModuleViewController.swift */,
+			);
+			path = Tab1Module;
+			sourceTree = "<group>";
+		};
+		BEE80C0520EFD44D00BFA439 /* TABS */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BCD20EFD43D00BFA439 /* Tab1Module */,
+				BEE80BAF20EFD43B00BFA439 /* Tab2Module */,
+				BEE80BB520EFD43B00BFA439 /* Tab3Module */,
+			);
+			path = TABS;
+			sourceTree = "<group>";
+		};
+		BEE80C0620EFD45900BFA439 /* INSIDE */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BC720EFD43C00BFA439 /* DetailModule */,
+				BEE80BBB20EFD43B00BFA439 /* HomeModule */,
+			);
+			path = INSIDE;
+			sourceTree = "<group>";
+		};
+		BEE80C0720EFD46100BFA439 /* OUTSIDE */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80B9D20EFD43A00BFA439 /* OutDetailModule */,
+				BEE80BA320EFD43A00BFA439 /* OutHomeModule */,
+			);
+			path = OUTSIDE;
+			sourceTree = "<group>";
+		};
+		BEE80C0820EFD46B00BFA439 /* LOGIN */ = {
+			isa = PBXGroup;
+			children = (
+				BEE80BC120EFD43C00BFA439 /* LoginModule */,
+				BEE80BA920EFD43B00BFA439 /* OlvideModule */,
+				BEE80B9720EFD43A00BFA439 /* RegistroModule */,
+			);
+			path = LOGIN;
+			sourceTree = "<group>";
+		};
+		D135BFF420A6C84498B8B45A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA0921F064B3AE7C4A19AACB /* Pods_VIperTemplate.framework */,
+				4C83F1606B9580DDCBDC96C6 /* Pods_VIperTemplateTests.framework */,
+				00D50C92F15AE7446E0F2144 /* Pods_VIperTemplateUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40F53567A17904CC335EE78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4170928CEA1CA9B1C3301 /* Pods-VIperTemplate.debug.xcconfig */,
+				D37EBF1EEAA61C3A54CF5F89 /* Pods-VIperTemplate.release.xcconfig */,
+				582D913700E707EDAA5F5599 /* Pods-VIperTemplateTests.debug.xcconfig */,
+				297D6F9F3A8CD06920EF254E /* Pods-VIperTemplateTests.release.xcconfig */,
+				EB9D256B89138084F963992F /* Pods-VIperTemplateUITests.debug.xcconfig */,
+				132B5E61A8AC81B1D03D047E /* Pods-VIperTemplateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE80B3B20EFD17A00BFA439 /* VIperTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE80B6420EFD18300BFA439 /* Build configuration list for PBXNativeTarget "VIperTemplate" */;
+			buildPhases = (
+				C3C1C185497D04756119528B /* [CP] Check Pods Manifest.lock */,
+				BEE80B3820EFD17A00BFA439 /* Sources */,
+				BEE80B3920EFD17A00BFA439 /* Frameworks */,
+				BEE80B3A20EFD17A00BFA439 /* Resources */,
+				4320AA0DCF05F4D7470A09EA /* [CP] Embed Pods Frameworks */,
+				6347F99EC8E70CD199DE967F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIperTemplate;
+			productName = VIperTemplate;
+			productReference = BEE80B3C20EFD17A00BFA439 /* VIperTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE80B4F20EFD18300BFA439 /* VIperTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE80B6720EFD18300BFA439 /* Build configuration list for PBXNativeTarget "VIperTemplateTests" */;
+			buildPhases = (
+				E9648B9748038841E4601FD9 /* [CP] Check Pods Manifest.lock */,
+				BEE80B4C20EFD18300BFA439 /* Sources */,
+				BEE80B4D20EFD18300BFA439 /* Frameworks */,
+				BEE80B4E20EFD18300BFA439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE80B5220EFD18300BFA439 /* PBXTargetDependency */,
+			);
+			name = VIperTemplateTests;
+			productName = VIperTemplateTests;
+			productReference = BEE80B5020EFD18300BFA439 /* VIperTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEE80B5A20EFD18300BFA439 /* VIperTemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE80B6A20EFD18300BFA439 /* Build configuration list for PBXNativeTarget "VIperTemplateUITests" */;
+			buildPhases = (
+				FE96FE9FFBF444261876476E /* [CP] Check Pods Manifest.lock */,
+				BEE80B5720EFD18300BFA439 /* Sources */,
+				BEE80B5820EFD18300BFA439 /* Frameworks */,
+				BEE80B5920EFD18300BFA439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE80B5D20EFD18300BFA439 /* PBXTargetDependency */,
+			);
+			name = VIperTemplateUITests;
+			productName = VIperTemplateUITests;
+			productReference = BEE80B5B20EFD18300BFA439 /* VIperTemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE80B3420EFD17A00BFA439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Arturo Ortiz";
+				TargetAttributes = {
+					BEE80B3B20EFD17A00BFA439 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					BEE80B4F20EFD18300BFA439 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = BEE80B3B20EFD17A00BFA439;
+					};
+					BEE80B5A20EFD18300BFA439 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = BEE80B3B20EFD17A00BFA439;
+					};
+				};
+			};
+			buildConfigurationList = BEE80B3720EFD17A00BFA439 /* Build configuration list for PBXProject "VIperTemplate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEE80B3320EFD17A00BFA439;
+			productRefGroup = BEE80B3D20EFD17A00BFA439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE80B3B20EFD17A00BFA439 /* VIperTemplate */,
+				BEE80B4F20EFD18300BFA439 /* VIperTemplateTests */,
+				BEE80B5A20EFD18300BFA439 /* VIperTemplateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE80B3A20EFD17A00BFA439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE80B7320EFD29C00BFA439 /* sIcon.png in Resources */,
+				BE60494220F8E3F00076A7AE /* image_sample.jpg in Resources */,
+				BEE80B4A20EFD18300BFA439 /* LaunchScreen.storyboard in Resources */,
+				BE60494020F813E50076A7AE /* tessdata in Resources */,
+				BEE80B7420EFD29C00BFA439 /* back.png in Resources */,
+				BEE80B4720EFD18300BFA439 /* Assets.xcassets in Resources */,
+				BEE80B7220EFD29C00BFA439 /* snake.png in Resources */,
+				BEE80B4520EFD17A00BFA439 /* Main.storyboard in Resources */,
+				BE60493E20F80D8A0076A7AE /* square.png in Resources */,
+				BEE80B9320EFD3EF00BFA439 /* Strings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE80B4E20EFD18300BFA439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE80B5920EFD18300BFA439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4320AA0DCF05F4D7470A09EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VIperTemplate/Pods-VIperTemplate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftEventBus/SwiftEventBus.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEventBus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIperTemplate/Pods-VIperTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6347F99EC8E70CD199DE967F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VIperTemplate/Pods-VIperTemplate-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIperTemplate/Pods-VIperTemplate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C1C185497D04756119528B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIperTemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9648B9748038841E4601FD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIperTemplateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE96FE9FFBF444261876476E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIperTemplateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE80B3820EFD17A00BFA439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE80C0320EFD43D00BFA439 /* Tab1ModuleRouter.swift in Sources */,
+				BEE80B9020EFD3EF00BFA439 /* FontConstants.swift in Sources */,
+				BEE80B9220EFD3EF00BFA439 /* StringConstants.swift in Sources */,
+				BEE80BD620EFD43D00BFA439 /* RegistroModuleRouter.swift in Sources */,
+				BEE80BE920EFD43D00BFA439 /* Tab2ModulePresenter.swift in Sources */,
+				BEE80BDD20EFD43D00BFA439 /* OutHomeModuleContract.swift in Sources */,
+				BEE80C0420EFD43D00BFA439 /* Tab1ModuleViewController.swift in Sources */,
+				BEE80B4220EFD17A00BFA439 /* ViewController.swift in Sources */,
+				BEE80C5A20F6BA8500BFA439 /* CoolBox.swift in Sources */,
+				BEE80B6E20EFD23800BFA439 /* TabController.swift in Sources */,
+				BEE80BF520EFD43D00BFA439 /* HomeModuleViewController.swift in Sources */,
+				BEE80BE620EFD43D00BFA439 /* OlvideModuleViewController.swift in Sources */,
+				BEE80C0C20F3CE8500BFA439 /* LoginModuleBox.swift in Sources */,
+				BEE80BE220EFD43D00BFA439 /* OlvideModuleContract.swift in Sources */,
+				BEE80BEC20EFD43D00BFA439 /* Tab3ModuleContract.swift in Sources */,
+				BE60493720F7FB1A0076A7AE /* CameraModuleBox.swift in Sources */,
+				BEE80C4920F654D700BFA439 /* UserDefaults.swift in Sources */,
+				BEE80BEB20EFD43D00BFA439 /* Tab2ModuleViewController.swift in Sources */,
+				BEE80BF720EFD43D00BFA439 /* LoginModuleInteractor.swift in Sources */,
+				BEE80BFA20EFD43D00BFA439 /* LoginModuleViewController.swift in Sources */,
+				BEE80BE120EFD43D00BFA439 /* OutHomeModuleViewController.swift in Sources */,
+				BEE80BD820EFD43D00BFA439 /* OutDetailModuleContract.swift in Sources */,
+				BEE80BD920EFD43D00BFA439 /* OutDetailModuleInteractor.swift in Sources */,
+				BEE80BD320EFD43D00BFA439 /* RegistroModuleContract.swift in Sources */,
+				BEE80C0120EFD43D00BFA439 /* Tab1ModuleInteractor.swift in Sources */,
+				BEE80C0020EFD43D00BFA439 /* Tab1ModuleContract.swift in Sources */,
+				BEE80C5820F6B05500BFA439 /* AlternateBox.swift in Sources */,
+				BE2C1D882124972E00E58DB0 /* DelegateInteractor.swift in Sources */,
+				BEE80BE020EFD43D00BFA439 /* OutHomeModuleRouter.swift in Sources */,
+				BEE80BD520EFD43D00BFA439 /* RegistroModulePresenter.swift in Sources */,
+				BE2C1D862124972E00E58DB0 /* DelegatePresenter.swift in Sources */,
+				BEE80BE820EFD43D00BFA439 /* Tab2ModuleInteractor.swift in Sources */,
+				BEE80BDE20EFD43D00BFA439 /* OutHomeModuleInteractor.swift in Sources */,
+				BEE80B9120EFD3EF00BFA439 /* ConstantsProtocol.swift in Sources */,
+				BEE80BFD20EFD43D00BFA439 /* DetailModulePresenter.swift in Sources */,
+				BEE80BEF20EFD43D00BFA439 /* Tab3ModuleRouter.swift in Sources */,
+				BEE80BF620EFD43D00BFA439 /* LoginModuleContract.swift in Sources */,
+				BEE80BE420EFD43D00BFA439 /* OlvideModulePresenter.swift in Sources */,
+				BEE80B8C20EFD3EF00BFA439 /* Request.swift in Sources */,
+				BEE80B8F20EFD3EF00BFA439 /* ColorConstants.swift in Sources */,
+				BEE80BF120EFD43D00BFA439 /* HomeModuleContract.swift in Sources */,
+				BE60493C20F7FB1A0076A7AE /* CameraModuleViewController.swift in Sources */,
+				BEE80BDF20EFD43D00BFA439 /* OutHomeModulePresenter.swift in Sources */,
+				BEE80BFC20EFD43D00BFA439 /* DetailModuleInteractor.swift in Sources */,
+				BEE80BED20EFD43D00BFA439 /* Tab3ModuleInteractor.swift in Sources */,
+				BEE80B8D20EFD3EF00BFA439 /* RequestBuilder.swift in Sources */,
+				BEE80BDC20EFD43D00BFA439 /* OutDetailModuleViewController.swift in Sources */,
+				BEE80B9520EFD3EF00BFA439 /* Extensions.swift in Sources */,
+				BEE80BFB20EFD43D00BFA439 /* DetailModuleContract.swift in Sources */,
+				BEE80BE320EFD43D00BFA439 /* OlvideModuleInteractor.swift in Sources */,
+				BEE80BFF20EFD43D00BFA439 /* DetailModuleViewController.swift in Sources */,
+				BEE80B8B20EFD3EF00BFA439 /* MyApiRequest.swift in Sources */,
+				BEE80BD720EFD43D00BFA439 /* RegistroModuleViewController.swift in Sources */,
+				BEE80B9420EFD3EF00BFA439 /* URLConstants.swift in Sources */,
+				BEE80BF020EFD43D00BFA439 /* Tab3ModuleViewController.swift in Sources */,
+				BEE80BEE20EFD43D00BFA439 /* Tab3ModulePresenter.swift in Sources */,
+				BEE80B4020EFD17A00BFA439 /* AppDelegate.swift in Sources */,
+				BE60493920F7FB1A0076A7AE /* CameraModuleInteractor.swift in Sources */,
+				BEE80BF320EFD43D00BFA439 /* HomeModulePresenter.swift in Sources */,
+				BEE80BDA20EFD43D00BFA439 /* OutDetailModulePresenter.swift in Sources */,
+				BE2C1D892124972E00E58DB0 /* DelegateContract.swift in Sources */,
+				BE60493820F7FB1A0076A7AE /* CameraModuleContract.swift in Sources */,
+				BEE80BF920EFD43D00BFA439 /* LoginModuleRouter.swift in Sources */,
+				BE60493A20F7FB1A0076A7AE /* CameraModulePresenter.swift in Sources */,
+				BEE80B8E20EFD3EF00BFA439 /* RequestProtocol.swift in Sources */,
+				BE2C1D872124972E00E58DB0 /* DelegateRouter.swift in Sources */,
+				BEE80BF420EFD43D00BFA439 /* HomeModuleRouter.swift in Sources */,
+				BEE80BE720EFD43D00BFA439 /* Tab2ModuleContract.swift in Sources */,
+				BEE80C5C20F7950900BFA439 /* DifferentBox.swift in Sources */,
+				BEE80BF220EFD43D00BFA439 /* HomeModuleInteractor.swift in Sources */,
+				BEE80BE520EFD43D00BFA439 /* OlvideModuleRouter.swift in Sources */,
+				BEE80BFE20EFD43D00BFA439 /* DetailModuleRouter.swift in Sources */,
+				BE60493B20F7FB1A0076A7AE /* CameraModuleRouter.swift in Sources */,
+				BEE80BDB20EFD43D00BFA439 /* OutDetailModuleRouter.swift in Sources */,
+				BEE80BF820EFD43D00BFA439 /* LoginModulePresenter.swift in Sources */,
+				BEE80BEA20EFD43D00BFA439 /* Tab2ModuleRouter.swift in Sources */,
+				BEE80BD420EFD43D00BFA439 /* RegistroModuleInteractor.swift in Sources */,
+				BEE80C0220EFD43D00BFA439 /* Tab1ModulePresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE80B4C20EFD18300BFA439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE80B5520EFD18300BFA439 /* VIperTemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE80B5720EFD18300BFA439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE80B6020EFD18300BFA439 /* VIperTemplateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEE80B5220EFD18300BFA439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE80B3B20EFD17A00BFA439 /* VIperTemplate */;
+			targetProxy = BEE80B5120EFD18300BFA439 /* PBXContainerItemProxy */;
+		};
+		BEE80B5D20EFD18300BFA439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE80B3B20EFD17A00BFA439 /* VIperTemplate */;
+			targetProxy = BEE80B5C20EFD18300BFA439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEE80B4320EFD17A00BFA439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE80B4420EFD17A00BFA439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEE80B4820EFD18300BFA439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE80B4920EFD18300BFA439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE80B6220EFD18300BFA439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEE80B6320EFD18300BFA439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE80B6520EFD18300BFA439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B4170928CEA1CA9B1C3301 /* Pods-VIperTemplate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY8AKQKUM2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VIperTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aom.VIperTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEE80B6620EFD18300BFA439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37EBF1EEAA61C3A54CF5F89 /* Pods-VIperTemplate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY8AKQKUM2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VIperTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aom.VIperTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEE80B6820EFD18300BFA439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582D913700E707EDAA5F5599 /* Pods-VIperTemplateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIperTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aom.VIperTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIperTemplate.app/VIperTemplate";
+			};
+			name = Debug;
+		};
+		BEE80B6920EFD18300BFA439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297D6F9F3A8CD06920EF254E /* Pods-VIperTemplateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIperTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aom.VIperTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIperTemplate.app/VIperTemplate";
+			};
+			name = Release;
+		};
+		BEE80B6B20EFD18300BFA439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9D256B89138084F963992F /* Pods-VIperTemplateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIperTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aom.VIperTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIperTemplate;
+			};
+			name = Debug;
+		};
+		BEE80B6C20EFD18300BFA439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132B5E61A8AC81B1D03D047E /* Pods-VIperTemplateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIperTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aom.VIperTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIperTemplate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE80B3720EFD17A00BFA439 /* Build configuration list for PBXProject "VIperTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE80B6220EFD18300BFA439 /* Debug */,
+				BEE80B6320EFD18300BFA439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE80B6420EFD18300BFA439 /* Build configuration list for PBXNativeTarget "VIperTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE80B6520EFD18300BFA439 /* Debug */,
+				BEE80B6620EFD18300BFA439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE80B6720EFD18300BFA439 /* Build configuration list for PBXNativeTarget "VIperTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE80B6820EFD18300BFA439 /* Debug */,
+				BEE80B6920EFD18300BFA439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE80B6A20EFD18300BFA439 /* Build configuration list for PBXNativeTarget "VIperTemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE80B6B20EFD18300BFA439 /* Debug */,
+				BEE80B6C20EFD18300BFA439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE80B3420EFD17A00BFA439 /* Project object */;
+}
